@@ -1,0 +1,31 @@
+{
+  "name": "el-full",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rimraf dist && tsc -w",
+    "demo": "npm run build && node script/tool.js",
+    "build": "rimraf dist && tsc && terser dist/main.js -c  -m toplevel=true -o dist/main.min.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/any86/be-full.git"
+  },
+  "keywords": [
+    "requestFullScreen",
+    "request-full-screen",
+    "full",
+    "screen"
+  ],
+  "author": "wenhe",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "terser": "^5.7.1"
+  }
+}
