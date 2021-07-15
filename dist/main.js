@@ -27,7 +27,6 @@ else if ("msRequestFullscreen" in DOC_ELMENT) {
 else if (!DOC_ELMENT.requestFullscreen) {
     throw "当前浏览器不支持(Fullscreen)全屏api";
 }
-console.log(FFS_METHOD_NAME);
 function beFull(el, options) {
     if (el === void 0) { el = DOC_ELMENT; }
     return el[FFS_METHOD_NAME](options);
