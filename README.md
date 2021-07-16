@@ -2,10 +2,10 @@
 
 [npm-url]: https://www.npmjs.com/package/el-full
 
-🍔 任意元素**全屏**显示, 支持PC/移动端, 不到**1kb**.
+🍔dom节点全屏
 
 ## 在线演示
-[:rocket: 演示](https://any86.github.io/be-full/example/)
+[:rocket: 演示](https://wenhe114.github.io/el-full/demo/)
 
 ## 安装
 

@@ -1,6 +1,6 @@
 {
   "name": "el-full",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/any86/be-full.git"
+    "url": "git+https://github.com/wenhe114/el-full.git"
   },
   "keywords": [
     "requestFullScreen",
