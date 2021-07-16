@@ -1,8 +1,10 @@
 {
   "name": "el-full",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.min.js",
+  "unpkg": "dist/main.min.js",
+  "types": "types/main.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "rimraf dist && tsc -w",
@@ -18,6 +20,10 @@
     "request-full-screen",
     "full",
     "screen"
+  ],
+  "files": [
+    "dist/*.js",
+    "types/*.d.ts"
   ],
   "author": "wenhe",
   "license": "ISC",

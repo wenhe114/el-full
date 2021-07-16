@@ -1,2 +1,8 @@
 node_modules/
 demo/
+.vscode
+example/
+script/
+.gitignore
+.npmignore
+main.ts
